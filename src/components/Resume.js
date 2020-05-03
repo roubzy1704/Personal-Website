@@ -151,7 +151,7 @@ function Resume() {
 			</div>
 			<div className="d-flex justify-content-center">
 				<form
-					action="https://drive.google.com/file/d/1jyGafazDzXr74-BfZ-MqBXy6W-5YQzOV/view?usp=sharing"
+					action="https://drive.google.com/file/d/1KSsWh3Z5DtONBCU6RHGHzrt7tet4P_Ki/view?usp=sharing"
 					method="get"
 					target="_blank"
 				>
