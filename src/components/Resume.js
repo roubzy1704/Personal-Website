@@ -151,7 +151,7 @@ function Resume() {
 			</div>
 			<div className="d-flex justify-content-center">
 				<form
-					action="https://www.dropbox.com/s/t27ainuvkncuuym/Ugo%20Arubaleze%20Full%20Stack%20Developer%20Resume.PDF?dl=0"
+					action="https://drive.google.com/file/d/1jyGafazDzXr74-BfZ-MqBXy6W-5YQzOV/view?usp=sharing"
 					method="get"
 					target="_blank"
 				>
