@@ -18,8 +18,13 @@ function Portfolio() {
 								// style={{ height: 300, width: "auto" }}
 							/>
 						</div>
-						<div className="card-body">
-							<h5 className="card-title">Demographic Predictor</h5>
+						<div className="card-body portContent">
+							<div className="card-title ">
+								<h5>
+									Demographic Predictor{"    "}
+									<span className="toolsUsed">(React, BootStrap)</span>
+								</h5>
+							</div>
 							<p className="card-text">
 								This App uses an individual's image to predict their Age, Gender
 								and Race. The predictions are made using the Clarifai API. You

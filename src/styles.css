@@ -136,13 +136,27 @@ body {
 .resumebtn:hover {
 	border-radius: 20px;
 	letter-spacing: 1px;
-	padding-right: 25px;
 }
 
 /* PORTFOLIO */
+
+.portContent {
+	font-family: "Montserrat", sans-serif;
+}
+
+.portContent h5 {
+	font-weight: bold;
+}
+
 .cardFooter {
 	display: flex;
 	justify-content: space-around;
+}
+
+.toolsUsed {
+	font-weight: normal;
+	font-size: small;
+	font-style: italic;
 }
 
 /* FOOTER */
