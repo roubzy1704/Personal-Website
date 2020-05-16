@@ -39,9 +39,9 @@ function About() {
 									My name is Ugo, and I am a full stack web developer based in
 									Houston TX. I am an excellent self learner and problem solver.
 									I put a lot of time and focus into whatever I do and when
-									building websites, it translates into a clean, modern and
-									intuitive design. When it comes to doing the best I can, I am
-									hardworking, unrelenting and receptive.
+									building websites, that translates into a clean, modern and
+									intuitive design. I am hardworking, unrelenting and receptive,
+									when it comes to doing the best I can.
 								</p>
 							</div>
 						</div>

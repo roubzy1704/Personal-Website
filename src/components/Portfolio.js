@@ -1,5 +1,6 @@
 import React from "react";
-import sample from "../Pictures/sample1.png";
+import sample1 from "../Pictures/sample1.png";
+import sample2 from "../Pictures/sample2.png";
 import progress from "../Pictures/progress.jpg";
 
 function Portfolio() {
@@ -12,7 +13,7 @@ function Portfolio() {
 					<div className="card shadow p-3 mb-5 bg-white rounded">
 						<div>
 							<img
-								src={sample}
+								src={sample1}
 								className="card-img-top "
 								alt="..."
 								// style={{ height: 300, width: "auto" }}
@@ -45,6 +46,54 @@ function Portfolio() {
 								</form>
 								<form
 									action="https://github.com/roubzy1704/Demographic-Predictor-App"
+									target="_blank"
+								>
+									<input
+										type="submit"
+										value="View Code"
+										className="btn btn-info"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="col mb-4">
+					<div className="card shadow p-3 mb-5 bg-white rounded">
+						<div>
+							<img
+								src={sample2}
+								className="card-img-top "
+								alt="..."
+								// style={{ height: 300, width: "auto" }}
+							/>
+						</div>
+						<div className="card-body portContent">
+							<div className="card-title ">
+								<h5>
+									Wedding Website Design{"    "}
+									<span className="toolsUsed">(React, BootStrap)</span>
+								</h5>
+							</div>
+							<p className="card-text">
+								A single page wedding website design, based on a project I did
+								for a client with a couple added improvements. Main idea was
+								working with a selected color theme and incorporating a simple
+								design.
+							</p>
+							<div className="cardFooter shadow-sm p-3 rounded">
+								<form
+									action="https://roubzy1704.github.io/wedding_design_concept/"
+									target="_blank"
+								>
+									<input
+										type="submit"
+										value="View Live"
+										className="btn btn-success"
+									/>
+								</form>
+								<form
+									action="https://github.com/roubzy1704/wedding_design_concept"
 									target="_blank"
 								>
 									<input
@@ -92,77 +141,6 @@ function Portfolio() {
 						</div>
 					</div>
 				</div>
-
-				{/* //*THIS IS FOR MORE PROJECTS
-        <div className="col mb-4">
-					<div className="card">
-						<img src="..." className="card-img-top" alt="..." />
-						<div className="card-body">
-							<h5 className="card-title">Card title</h5>
-							<p className="card-text">
-								This is a longer card with supporting text below as a natural
-								lead-in to additional content.
-							</p>
-              	<div className="cardFooter">
-								<form
-									action="//!URL"
-									target="_blank"
-								>
-									<input
-										type="submit"
-										value="View Live"
-										className="btn btn-success"
-									/>
-								</form>
-								<form
-									action="//!URL"
-									target="_blank"
-								>
-									<input
-										type="submit"
-										value="View Code"
-										className="btn btn-info"
-									/>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className="col mb-4">
-					<div className="card">
-						<img src="..." className="card-img-top" alt="..." />
-						<div className="card-body">
-							<h5 className="card-title">Card title</h5>
-							<p className="card-text">
-								This is a longer card with supporting text below as a natural
-								lead-in to additional content. This content is a little bit
-								longer.
-							</p>
-              	<div className="cardFooter">
-								<form
-									action="//!URL"
-									target="_blank"
-								>
-									<input
-										type="submit"
-										value="View Live"
-										className="btn btn-success"
-									/>
-								</form>
-								<form
-									action="//!URL"
-									target="_blank"
-								>
-									<input
-										type="submit"
-										value="View Code"
-										className="btn btn-info"
-									/>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div> */}
 			</div>
 		</div>
 	);
