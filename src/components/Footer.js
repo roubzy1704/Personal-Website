@@ -27,7 +27,7 @@ function Footer() {
 					</div>
 					<div className="col-sm">
 						<a
-							href="https://www.linkedin.com/in/ugochukwu-arubaleze-151444145"
+							href="https://www.linkedin.com/in/ugo-arubaleze-151444145"
 							target="_blank"
 						>
 							<i className="fab fa-linkedin" />

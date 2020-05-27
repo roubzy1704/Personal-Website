@@ -28,6 +28,12 @@ function Resume() {
 							data-icon="logos:javascript"
 							data-inline="false"
 						/>
+						<span
+							title="C#"
+							className="iconify iconresume"
+							data-icon="logos:c-sharp"
+							data-inline="false"
+						></span>
 
 						<span
 							title="Java"
@@ -95,6 +101,12 @@ function Resume() {
 							data-icon="logos:jquery"
 							data-inline="false"
 						/>
+						<span
+							title="dotNET"
+							className="iconify iconresume"
+							data-icon="logos:dotnet"
+							data-inline="false"
+						/>
 						<h5> Databases</h5>
 						<span
 							title="MongoDB"
@@ -127,6 +139,13 @@ function Resume() {
 							data-icon="logos:git"
 							data-inline="false"
 						/>
+						<span
+							title="Nuget"
+							className="iconify iconresume"
+							data-icon="cib:nuget"
+							data-inline="false"
+							style={{ color: "blue" }}
+						></span>
 						<h5> Editors </h5>
 						<span
 							title="VSCode"
@@ -151,7 +170,7 @@ function Resume() {
 			</div>
 			<div className="d-flex justify-content-center">
 				<form
-					action="https://drive.google.com/file/d/1NkUDMOj1JGItJNeMtvilVX3GVpRSEd38/view?usp=sharing"
+					action="https://drive.google.com/file/d/1uEAyLU7ruCyZaOCP4Y1U3xM9pRTcxdjV/view?usp=sharing"
 					method="get"
 					target="_blank"
 				>
