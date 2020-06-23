@@ -13,7 +13,9 @@ function Resume() {
 						<h5> Bachelors of Science in Computer Science </h5>
 						<p> University of Houston Downtown (2013)</p>
 						<h3>Experience</h3>
-						<h5>Freelance Web Developer (2019 - Present)</h5>
+						<h5>Front End Mobile Developer (2020 - Present)</h5>
+						<p>Blindly</p>
+						<h5>Freelance Web Developer (2019 - 2020)</h5>
 						<h5>Senior Technical Support Specialist (2017 - 2018)</h5>
 						<p>WorldPay</p>
 						<h5>Special Operation Team Leader (2014)</h5>
@@ -72,7 +74,7 @@ function Resume() {
 
 						<h5> Libraries and Frameworks </h5>
 						<span
-							title="React"
+							title="React and React Native"
 							className="iconify iconresume"
 							data-icon="logos:react"
 							data-inline="false"
@@ -170,7 +172,7 @@ function Resume() {
 			</div>
 			<div className="d-flex justify-content-center">
 				<form
-					action="https://drive.google.com/file/d/1uEAyLU7ruCyZaOCP4Y1U3xM9pRTcxdjV/view?usp=sharing"
+					action="https://drive.google.com/file/d/1GsTT3oDXe3640JiDW4qUNbEJ-nSi8Q6k/view?usp=sharing"
 					method="get"
 					target="_blank"
 				>

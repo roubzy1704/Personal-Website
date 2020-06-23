@@ -15,16 +15,7 @@ function Footer() {
 							&nbsp;&nbsp;Github
 						</a>
 					</div>
-					<div className="col-sm">
-						<a href="https://codesandbox.io/u/roubzy1704" target="_blank">
-							<span
-								className="iconify"
-								data-icon="simple-icons:codesandbox"
-								data-inline="false"
-							/>
-							&nbsp;&nbsp;Codesandbox
-						</a>
-					</div>
+
 					<div className="col-sm">
 						<a
 							href="https://www.linkedin.com/in/ugo-arubaleze-151444145"
