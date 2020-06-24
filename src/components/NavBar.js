@@ -1,7 +1,7 @@
 import React from "react";
 
 function NavBar({ activePage, selectedContent }) {
-  /*
+	/*
   this block is going to set the nav bar active, the last 2 lines of the Code,
   worked before to set it, but since i had to incoporate, a localstorage to 
   remember the last page when the user refreshes the page, I have to change
@@ -13,111 +13,117 @@ function NavBar({ activePage, selectedContent }) {
   but for now i will leave it like that, it does what i want, will optimize
   later on in the future 
   */
-  if (activePage) {
-    for (let i = 0; i < document.querySelectorAll("li").length; i++) {
-      if (
-        activePage ===
-        document.querySelectorAll("li")[i].innerText.toLowerCase()
-      ) {
-        //select and then remove previous Nav Bar active
-        document.getElementsByClassName("active")[0].classList.remove("active");
-        //set new nav bar active based on users selection in event.target
-        document.querySelectorAll("li")[i].classList.add("active");
-      }
-    }
-  }
+	if (activePage) {
+		for (let i = 0; i < document.querySelectorAll("li").length; i++) {
+			if (
+				activePage ===
+				document.querySelectorAll("li")[i].innerText.toLowerCase()
+			) {
+				//select and then remove previous Nav Bar active
+				document.getElementsByClassName("active")[0].classList.remove("active");
+				//set new nav bar active based on users selection in event.target
+				document.querySelectorAll("li")[i].classList.add("active");
+			}
+		}
+	}
 
-  function handleClick(event) {
-    let selection = event.target.name;
-    selectedContent(selection);
-  }
+	function handleClick(event) {
+		let selection = event.target.name;
+		selectedContent(selection);
+	}
 
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a
-        className="navbar-brand brandTitle text-info logo"
-        onClick={handleClick}
-        name="home"
-      >
-        UA
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button>
+	return (
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<a
+				className="navbar-brand brandTitle text-info logo"
+				onClick={handleClick}
+				name="home"
+				href="/#"
+			>
+				UA
+			</a>
+			<button
+				className="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span className="navbar-toggler-icon" />
+			</button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <a
-              className="nav-link active"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={handleClick}
-              name="home"
-            >
-              HOME
-            </a>
-          </li>
+			<div className="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul className="navbar-nav mr-auto">
+					<li className="nav-item">
+						<a
+							className="nav-link active"
+							data-toggle="collapse"
+							data-target=".navbar-collapse.show"
+							onClick={handleClick}
+							name="home"
+							href="/#"
+						>
+							HOME
+						</a>
+					</li>
 
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={handleClick}
-              name="about me"
-            >
-              ABOUT ME
-            </a>
-          </li>
+					<li className="nav-item">
+						<a
+							className="nav-link"
+							data-toggle="collapse"
+							data-target=".navbar-collapse.show"
+							onClick={handleClick}
+							name="about me"
+							href="/#"
+						>
+							ABOUT ME
+						</a>
+					</li>
 
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={handleClick}
-              name="resume"
-            >
-              RESUME
-            </a>
-          </li>
+					<li className="nav-item">
+						<a
+							className="nav-link"
+							data-toggle="collapse"
+							data-target=".navbar-collapse.show"
+							onClick={handleClick}
+							name="resume"
+							href="/#"
+						>
+							RESUME
+						</a>
+					</li>
 
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={handleClick}
-              name="portfolio"
-            >
-              PORTFOLIO
-            </a>
-          </li>
+					<li className="nav-item">
+						<a
+							className="nav-link"
+							data-toggle="collapse"
+							data-target=".navbar-collapse.show"
+							onClick={handleClick}
+							name="portfolio"
+							href="/#"
+						>
+							PORTFOLIO
+						</a>
+					</li>
 
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-              onClick={handleClick}
-              name="contact"
-            >
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
+					<li className="nav-item">
+						<a
+							className="nav-link"
+							data-toggle="collapse"
+							data-target=".navbar-collapse.show"
+							onClick={handleClick}
+							name="contact"
+							href="/#"
+						>
+							CONTACT
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	);
 }
 
 export default NavBar;

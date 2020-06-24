@@ -10,7 +10,11 @@ function Footer() {
 			<div className="container">
 				<div className="row">
 					<div className="col-sm">
-						<a href="https://github.com/roubzy1704" target="_blank">
+						<a
+							href="https://github.com/roubzy1704"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<i className="social-icon fab fa-github-square " />
 							&nbsp;&nbsp;Github
 						</a>
@@ -20,6 +24,7 @@ function Footer() {
 						<a
 							href="https://www.linkedin.com/in/ugo-arubaleze-151444145"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<i className="fab fa-linkedin" />
 							&nbsp;&nbsp;LinkedIn
