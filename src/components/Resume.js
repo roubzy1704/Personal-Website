@@ -13,9 +13,7 @@ function Resume() {
 						<h5> Bachelors of Science in Computer Science </h5>
 						<p> University of Houston Downtown (2013)</p>
 						<h3>Experience</h3>
-						<h5>Front End Mobile Developer (2020 - Present)</h5>
-						<p>Blindly</p>
-						<h5>Freelance Web Developer (2019 - 2020)</h5>
+						<h5>Freelance Web Developer (2019 - Present)</h5>
 						<h5>Senior Technical Support Specialist (2017 - 2018)</h5>
 						<p>WorldPay</p>
 						<h5>Special Operation Team Leader (2014)</h5>
