@@ -69,6 +69,11 @@ function Resume() {
 							data-icon="logos:sass"
 							data-inline="false"
 						/>
+						<span
+							class="iconify iconresume"
+							data-icon="logos:graphql"
+							data-inline="false"
+						></span>
 
 						<h5> Libraries and Frameworks </h5>
 						<span
@@ -146,31 +151,37 @@ function Resume() {
 							data-inline="false"
 							style={{ color: "blue" }}
 						></span>
-						<h5> Editors </h5>
+						<h5> Deployment </h5>
 						<span
-							title="VSCode"
+							title="GitHub"
 							className="iconify iconresume"
-							data-icon="logos:visual-studio-code"
+							data-icon="ant-design:github-outlined"
 							data-inline="false"
-						/>
+						></span>
 						<span
-							title="Sublime text"
+							title="Heroku"
 							className="iconify iconresume"
-							data-icon="simple-icons:sublimetext"
+							data-icon="logos:heroku-icon"
 							data-inline="false"
-						/>
+						></span>
 						<span
-							title="Atom"
+							title="Netlify"
 							className="iconify iconresume"
-							data-icon="logos:atom"
+							data-icon="logos:netlify"
 							data-inline="false"
-						/>
+						></span>
+						<span
+							title="CircleCI"
+							className="iconify iconresume"
+							data-icon="cib:circleci"
+							data-inline="false"
+						></span>
 					</div>
 				</div>
 			</div>
 			<div className="d-flex justify-content-center">
 				<form
-					action="https://drive.google.com/file/d/1510tYjFeCkO_5N0L1X_Z8JE-7EC4-CDG/view?usp=sharing"
+					action="https://drive.google.com/file/d/1xdCX2Jrx4ioIz9RuKDiBah5lB6XtQyu_/view?usp=sharing"
 					method="get"
 					target="_blank"
 				>

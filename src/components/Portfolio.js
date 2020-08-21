@@ -1,6 +1,7 @@
 import React from "react";
 import sample1 from "../Pictures/sample1.png";
 import sample2 from "../Pictures/sample2.png";
+import sample3 from "../Pictures/sample3.png";
 import progress from "../Pictures/progress.jpg";
 
 function Portfolio() {
@@ -9,6 +10,47 @@ function Portfolio() {
 			<h2 className="pageTitle">Sample Projects</h2>
 
 			<div className="row row-cols-1 row-cols-md-2">
+				<div className="col mb-4">
+					<div className="card shadow p-3 mb-5 bg-white rounded">
+						<div>
+							<img src={sample3} className="card-img-top " alt="..." />
+						</div>
+						<div className="card-body portContent">
+							<div className="card-title ">
+								<h5>
+									Online Store{"    "}
+									<span className="toolsUsed">(Node, MongoDB, EJS)</span>
+								</h5>
+							</div>
+							<p className="card-text">
+								An online store built using Node.js and MVC model. Utilized EJS
+								template for view engine, and MongoDB for database storage.
+							</p>
+							<div className="cardFooter shadow-sm p-3 rounded">
+								<form
+									action="https://node-shop-stores.herokuapp.com/"
+									target="_blank"
+								>
+									<input
+										type="submit"
+										value="View Live"
+										className="btn btn-success"
+									/>
+								</form>
+								<form
+									action="https://github.com/roubzy1704/Node-Shop-Store"
+									target="_blank"
+								>
+									<input
+										type="submit"
+										value="View Code"
+										className="btn btn-info"
+									/>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div className="col mb-4">
 					<div className="card shadow p-3 mb-5 bg-white rounded">
 						<div>
@@ -118,7 +160,7 @@ function Portfolio() {
 							}}
 						/>
 						<div className="card-body">
-							<h5 className="card-title">Chatbot Project</h5>
+							<h5 className="card-title">RSVP Manager</h5>
 							<p className="card-text">Deploying soon</p>
 							<div className="cardFooter">
 								<form action="" target="_blank">
